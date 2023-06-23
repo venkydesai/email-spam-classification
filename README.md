@@ -6,7 +6,7 @@ The SMS Spam Collection is a set of SMS-tagged messages that have been collected
 
 The following tasks were performed in the **sms-spam-detection.ipynb** file
 
-## 1. Data cleaning
+### 1. Data cleaning
 - Dropped the column null values
 - Dropped for duplicate rows
 - Encoded the target variable
