@@ -16,13 +16,24 @@ The following tasks were performed in the **sms-spam-detection.ipynb** file
 ## 2. Exploratory Data Analysis
 - Visualized Spam and Not Spam dataset and found the data was imbalanced
 - NLTK Punkt sentence tokenizer is used to calculate the number of characters, number of words, and number of sentences in the **text** feature.
-- After adding the above three features, the dataset is visualized. The correlation Matrix shows a high correlation between the three new features. Therefore, only one feature among them is used for further pre-processing task.
+- After adding the above three features, the dataset is visualized. The correlation Matrix shows a high correlation between the three new features. Therefore, only one feature among them is used for further pre-processing tasks.
+- Spam and Not Spam words are visualized using wordcloud 
 
-
-
-
-# 3. Text Preprocessing
+## 3. Text Preprocessing
+The following pre-processing tasks were implemented:-
+- Lower case
+- Tokenization
+- Removing special characters
+- Removing stop words and punctuation
+- Stemming
+  
 # 4. Model building
+- CountVectorizer and TfidfVectorizer are used to convert text to vector values
+- Naive Bayes (GaussianNB,MultinomialNB,BernoulliNB)
+- 
+- 
+
+- 
 # 5. Evaluation
 # 6. Improvement
 # 7. Website
